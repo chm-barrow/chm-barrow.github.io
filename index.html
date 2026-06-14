@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Website</title>
+  <title>My Site</title>
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    <p>This site is hosted on GitHub Pages.</p>
+  <h1>Welcome</h1>
+
+  <script>
+    // Sends a "visit ping" to your backend
+    fetch("https://YOUR-WORKER-NAME.workers.dev")
+      .catch(() => {})
+  </script>
 </body>
 </html>
